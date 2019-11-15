@@ -40,10 +40,10 @@ let dino3 = {
 console.log(dino1.weight);
 
 // What was the diet of a velociraptor?
-console.log(dino1.diet);
+console.log(dino3.diet);
 
 // How long was a stegosaurus?
-console.log(dino1.length);
+console.log(dino2.length);
 
 // What time period did tyrannosaurus live in?
 console.log(dino1.period);
