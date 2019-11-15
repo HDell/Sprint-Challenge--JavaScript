@@ -26,10 +26,11 @@ class CubeMaker extends CuboidMaker {
     constructor(props) {
         super(props);
     }
-    volume () {
-        ;
-    }
-    surfaceArea () {
-        ;
-    }
 }
+
+let cube = new CubeMaker({length: 5, width: 5, height: 5});
+
+// Test your volume and surfaceArea methods by uncommenting the logs below:
+console.log(cube.volume()); //125
+console.log(cube.surfaceArea()); //150
+
